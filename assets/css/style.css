@@ -1,0 +1,28 @@
+* {
+    margin:0;
+}
+
+section {
+    border: 2px solid black;
+    color: hsl(90, 100%, 50%);
+    font-size: 40px;
+}
+
+figcaption {
+    font-size:50%;
+    border: 1px solid black;
+    width: 75%;
+}
+/* 1in (pouce) = 2.54 cm = 72 pt (point) = 6 pc  */
+
+figure {
+    margin:100px, 15px, 0, 0;
+}
+
+.title {
+    color:red
+}
+
+#cherry {
+    background-color: green;
+}
