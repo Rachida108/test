@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Le formulaire</title>
+</head>
+<body>
+    <form action="./" method="get">
+    <fieldset class="group">
+        <legend>Mes coordonnées</legend>
+    <div class="inputGroup">
+        <label for="surname">Prénom</label>
+        <input id="surname" type="text" name="prenom" required/>
+    </div>
+    <div class="inputGroup">
+        <label for="name">Nom</label>
+        <input id="name" type="text" name="nom"required />
+    </div>
+    <div class="inputGroup">
+        <label for="mail">Email</label>
+        <input id="email" type="email" name="mail" required />
+    </div>
+    </fieldset>
+    <fieldset class="group">
+        <legend>Ma demande</legend>
+        <select id="demand" name="object" required>
+            <option value="">Choisir l'objet de ma demande</option>
+            <option value="contact">Je veux être recontacté</option>
+            <option value="price">Je veux un devis.</option>
+            <option value="info">Je veux + d'info</option>
+        </select>
+        <textarea name="message" id="message" placeholder="Votre message" maxlength="10" minlength="1"></textarea>
+    </fieldset>
+    <div class="group">
+        <input type="submit" value="Valider le formulaire"/>
+    </div>
+    </form>
+</body>
+</html>
